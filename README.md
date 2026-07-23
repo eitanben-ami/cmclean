@@ -1,5 +1,8 @@
 # cmclean
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python >=3.11](https://img.shields.io/badge/python-%3E%3D3.11-blue.svg)
+
 A comment-structure linter for source trees. It scans source files and flags commented debris before it accumulates: TODOs/FIXMEs/HACKs, author plaques, suspicious one-liners, excessively long comments, and blocker-style remarks.
 
 ## About
@@ -34,28 +37,9 @@ cmclean /path/to/project --json
 - `0` No questionable comments found
 - `1` Issues found or bad invocation
 
-## Project structure
-
-```
-cmclean/
-├── src/cmclean/
-│   ├── __init__.py
-│   ├── cli.py
-│   ├── engine.py
-│   └── models.py
-├── tests/
-│   └── test_cmclean.py
-├── pyproject.toml
-└── README.md
-```
-
 ## Development
 
 ```bash
 python -m pip install -e '.[dev]'
 pytest
 ```
-
-## Tags / keywords
-
-comment linter, clean code, static analysis, cli, todo, developer tooling
