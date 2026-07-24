@@ -9,16 +9,6 @@ A comment-structure linter for source trees. It scans source files and flags com
 
 `cmclean` is a language-agnostic static-analysis helper for codebases. It flags problematic comment patterns across supported file types, including Python, JavaScript/TypeScript, Markdown, and JSON/YAML/TOML. It is not a full linter; its job is *comment hygiene*.
 
-## Features
-
-- Detect TODO-like debris: `TODO`, `FIXME`, `HACK`, `XXX`
-- Detect author plaques: `@author`, `@created by`, `@written by`
-- Detect suspicious debris: weird symbols, oddisms
-- Detect blame/blocker-style remarks: `@blame`, `@debugger`, `@temp`, `@workaround`
-- Detect excessively long comments above configurable length
-- Multi-language file awareness across `.py`, `.js`, `.ts`, `.tsx`, `.md`, `.yaml`, `.yml`, `.json`, `.toml`
-- JSON or human-friendly text output
-
 ## Installation
 
 ```bash
@@ -37,9 +27,27 @@ cmclean /path/to/project --json
 - `0` No questionable comments found
 - `1` Issues found or bad invocation
 
+## Detectors
+
+- TODO-like debris: `TODO`, `FIXME`, `HACK`, `XXX`
+- Author plaque: `@author`, `@created by`, `@written by`
+- Suspicious debris: strings containing `@#\$%` and nearby characters
+- Excessively long comment: raw comment lines longer than 240 characters
+- Blocker-style remark: `@blame`, `@debugger`, `@temp`, `@workaround`
+
+Supported extensions: `.py`, `.js`, `.ts`, `.tsx`, `.md`, `.yaml`, `.yml`, `.json`, `.toml`
+
 ## Development
 
 ```bash
 python -m pip install -e '.[dev]'
 pytest
 ```
+
+## Contributing
+
+Issues and pull requests are welcome. Please open an issue before larger changes so scope and design can align with the comment-hygiene focus of the tool.
+
+## License
+
+MIT
