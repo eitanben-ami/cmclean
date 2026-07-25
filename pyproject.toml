@@ -9,7 +9,7 @@ description = "A comment-structure linter for Python that flags TODO-like debris
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
-authors = [{ name = "WeeklyProjectAgent" }]
+authors = [{ name = "Eitan Ben-Ami" }]
 keywords = ["cli", "linter", "comments", "static-analysis", "clean-code"]
 classifiers = [
   "Development Status :: 3 - Alpha",
