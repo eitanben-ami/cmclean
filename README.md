@@ -37,6 +37,10 @@ cmclean /path/to/project --json
 
 Supported extensions: `.py`, `.js`, `.ts`, `.tsx`, `.md`, `.yaml`, `.yml`, `.json`, `.toml`
 
+## Examples
+
+See [`examples/`](examples/) for sample scans. Run `cmclean examples/` to verify the linter reports no issues against shipped demo files.
+
 ## Development
 
 ```bash
