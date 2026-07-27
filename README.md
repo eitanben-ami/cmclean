@@ -1,13 +1,12 @@
 # cmclean
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Python >=3.11](https://img.shields.io/badge/python-%3E%3D3.11-blue.svg)
-
 A comment-structure linter for source trees. It scans source files and flags commented debris before it accumulates: TODOs/FIXMEs/HACKs, author plaques, suspicious one-liners, excessively long comments, and blocker-style remarks.
 
 ## About
 
 `cmclean` is a language-agnostic static-analysis helper for codebases. It flags problematic comment patterns across supported file types, including Python, JavaScript/TypeScript, Markdown, and JSON/YAML/TOML. It is not a full linter; its job is *comment hygiene*.
+
+Checkout the repo: https://github.com/eitanben-ami/cmclean
 
 ## Installation
 
