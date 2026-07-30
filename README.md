@@ -6,7 +6,7 @@ A comment-structure linter for source trees. It scans source files and flags com
 
 `cmclean` is a language-agnostic static-analysis helper for codebases. It flags problematic comment patterns across supported file types, including Python, JavaScript/TypeScript, Markdown, and JSON/YAML/TOML. It is not a full linter; its job is *comment hygiene*.
 
-Checkout the repo: https://github.com/eitanben-ami/cmclean
+Repository: https://github.com/eitanben-ami/cmclean
 
 ## Installation
 
