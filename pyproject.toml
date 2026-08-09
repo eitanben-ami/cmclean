@@ -11,6 +11,7 @@ requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "Eitan Ben-Ami" }]
 keywords = ["cli", "linter", "comments", "static-analysis", "clean-code"]
+urls = { Repository = "https://github.com/eitanben-ami/cmclean" }
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Developers",
