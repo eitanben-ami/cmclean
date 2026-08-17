@@ -1,23 +1,47 @@
 __pycache__/
 *.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
 *.egg-info/
 .eggs/
-dist/
 build/
-
-# Virtualenv
+dist/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg
+MANIFEST
+*.manifest
+spec
+pip-log.txt
+.hypothesis/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/
 .venv/
 venv/
+__pypackages__/
+.pytype/
+.ruff_cache/
+
+# Virtualenv / env files
 .env
 .env.*
 
-# Tests and coverage
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-
-# Node
+# Node / frontend
 node_modules/
 npm-debug.log*
 yarn-debug.log*
