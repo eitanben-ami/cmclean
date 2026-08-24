@@ -1,3 +1,4 @@
+# Python
 __pycache__/
 *.pyc
 *.py[cod]
@@ -31,7 +32,7 @@ pip-log.txt
 htmlcov/
 .nox/
 .tox/
-.venv/
+.venv
 venv/
 __pypackages__/
 .pytype/
@@ -40,6 +41,7 @@ __pypackages__/
 # Virtualenv / env files
 .env
 .env.*
+.venv
 
 # Node / frontend
 node_modules/
