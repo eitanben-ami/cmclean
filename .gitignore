@@ -41,8 +41,6 @@ __pypackages__/
 # Virtualenv / env files
 .env
 .env.*
-.venv
-
 # Node / frontend
 node_modules/
 npm-debug.log*
